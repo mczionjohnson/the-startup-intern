@@ -1,1 +1,1 @@
-# the-statrup-intern
+# the-startup-intern

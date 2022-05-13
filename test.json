@@ -1,1 +1,72 @@
-{}
+"user" {
+    "userID": "KEYWORD int",
+    "username": "string",
+    "password": "string",
+
+}
+
+
+ 
+"orderItems" {
+    "orderItemID": "KEAYWORD int",
+    "orderID": "int",
+    "quantity": "int",
+    "price": "float"
+}
+
+"orderTransaction" {
+    "orderTransactionID": "KEYWORD int",
+    "orderID": "int",
+    "amount": "float",
+    "VAT": "float"
+}
+
+"items" {
+    "itemID": "KEYWORD int",
+    "name": "string",
+    "description": "string",
+    "price": "float"
+
+}
+"Order" {
+    "orderID": "KEYWORD int",
+    "userID": "int",
+    "totalAmount": "float"
+}
+
+//example
+"User" 
+{
+"userID": "1a",
+"username": "hay",
+"password": "stack",
+
+}
+
+ 
+"orderItems" {
+"orderItemID": "1aa1",
+"orderID": "1aa",
+"quantity": "2",
+"price": "30.33"
+}
+
+"orderTransaction" {
+    "orderTransactionID": "1aa11",
+    "orderID": "1aa",
+    "amount": "30.33",
+    "VAT": "2.50"
+}
+
+"items" {
+    "itemID": "202a",
+    "name": "parfait",
+    "description": "tantalizing taste",
+    "price": "30.33"
+}
+
+"Order" {
+    "orderID": "1aa",
+    "userID": "1a",
+    "totalAmount": "32.53"
+    }

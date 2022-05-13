@@ -6,7 +6,6 @@
 }
 
 
- 
 "orderItems" {
     "orderItemID": "KEAYWORD int",
     "orderID": "int",
@@ -48,13 +47,13 @@
 "orderItemID": "1aa1",
 "orderID": "1aa",
 "quantity": "2",
-"price": "30.33"
+"price": "15.30"
 }
 
 "orderTransaction" {
     "orderTransactionID": "1aa11",
     "orderID": "1aa",
-    "amount": "30.33",
+    "amount": "30.60",
     "VAT": "2.50"
 }
 
@@ -62,7 +61,7 @@
     "itemID": "202a",
     "name": "parfait",
     "description": "tantalizing taste",
-    "price": "30.33"
+    "price": "15.30"
 }
 
 "Order" {
